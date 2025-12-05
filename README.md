@@ -52,7 +52,7 @@ Register a user from your platform as a sub-account on Mular. This is required t
 | `email` | String | Yes | User's email address |
 | `nibss_bank_code` | String | Yes | Bank code (NIBSS) |
 | `account_number` | String | Yes | User's bank account number |
-| `external_ref` | String | Yes | A unique reference ID from your system for this user |
+| `external_ref` | String | Yes | A reference number from your platform for the user |
 
 **Example Request:**
 
@@ -151,7 +151,7 @@ Generate or retrieve a specific deposit address for a sub-user for a chosen curr
 ```json
 {
     "status": true,
-    "address": "0x438B48753B0d6CE93ac0BFfac4F009bf69bf8268",
+    "address": "0x438B48753B0................268",
     "network": "bep20"
 }
 ```
