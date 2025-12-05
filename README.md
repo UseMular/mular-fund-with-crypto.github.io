@@ -49,6 +49,7 @@ Register a user from your platform as a sub-account on Mular. This is required t
 
 | Field | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
+| `id` | String | Yes | User's Mular ID |
 | `email` | String | Yes | User's email address |
 | `nibss_bank_code` | String | Yes | Bank code (NIBSS) |
 | `account_number` | String | Yes | User's bank account number |
